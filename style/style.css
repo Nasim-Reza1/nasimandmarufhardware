@@ -57,4 +57,74 @@ body{
     font-size: 1.4em;
 }
 /* navend */
+/* Asainpaints starts */
 
+.paints{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 100px;
+    background-color: rgb(219, 219, 243);
+
+}
+.paints-item{
+    background-color: rgb(245, 230, 220);
+    border: 3px solid rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+
+}
+.paints-item img{
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+    margin-top: 8px;
+    margin-left: 28px;
+}
+.paint-caption{
+    background-color: cornflowerblue;
+    margin: 5px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.paint-description{
+text-align: justify;
+font-style: italic;
+padding-left: 10px;
+padding-right: 10px;
+}
+.btn{
+    background-color: rgb(204, 241, 241);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: 800;
+    color: black;
+    margin-left: 30px;
+    
+}
+.btn a{
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.btn:hover{
+    transition:3s;
+    font-size: 20px;
+    background-color: rgb(137, 137, 235);
+}
+/* shop information */
+.name{
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(245, 201, 245);
+    padding: 20px;
+}
+.shop-description{
+    text-align: justify;
+    font-size: 1.8em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.shop-information img{
+    padding: 10px 50px;
+}

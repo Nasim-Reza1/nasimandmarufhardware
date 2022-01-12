@@ -1,0 +1,60 @@
+/* navbaer */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Be Vietnam Pro', sans-serif;
+
+   font-family: 'Lato', sans-serif;
+
+   font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background-color: rgb(235, 243, 227);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(229, 247, 74);
+    padding: 15px 20px;
+    
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    height: 60px;
+    width: 80px;
+    padding-left: 30px;
+}
+.shop-name{
+    color: rgb(78, 78, 241);
+    padding-left: 50px;
+    font-size: 1.8em;
+
+
+}
+.nav-right{
+    padding-right: 50px;
+
+}
+.nav-right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right ul li{
+    list-style: none;
+    padding-left: 25px;
+}
+.nav-right ul li a{
+    text-decoration: none;
+    font-size: 1.4em;
+}
+/* navend */
+
